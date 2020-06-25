@@ -1,4 +1,5 @@
 import Head from "next/head";
+import dynamic from "next/dynamic";
 
 import Autoplay from "../components/Autoplay";
 import Signup from "../components/Signup";
@@ -16,6 +17,11 @@ import {
 import { motion } from "framer-motion";
 
 const MotionText = motion.custom(Text);
+
+const DynamicComponentWithNoSSR = dynamic(
+  () => import("../components/Autoplay"),
+  { ssr: false }
+);
 
 export default function Home() {
   return (
@@ -218,7 +224,7 @@ export default function Home() {
                 </MotionText>
               </Box>
               <Box width="1px" height="1px" opacity="0">
-                <Autoplay />
+                <DynamicComponentWithNoSSR />
               </Box>
             </Flex>
           </motion.div>
