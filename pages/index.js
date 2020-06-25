@@ -37,6 +37,7 @@ export default function Home() {
         />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="twitter:card" content="app" />
+        <meta name="twitter:text:title" content="👁👄👁" />
         <meta
           name="twitter:image"
           content="https://itiswhatitis-ten.vercel.app/socialmedia.png"
