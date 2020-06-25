@@ -50,11 +50,11 @@ export default function SignupForm() {
       </Box>
     </motion.div>
   ) : (
-    <Flex maxWidth="400px" flexDirection="row">
+    <Flex flexDirection={["column", "column", "row", "row"]}>
       <form onSubmit={submitForm}>
         <Input
           borderRadius="16px"
-          placeholder="enter your email address"
+          placeholder="email address here"
           value={email}
           onChange={handleChange}
           onSubmit={submitForm}
