@@ -1,6 +1,12 @@
 import { Flex, Box, Input, Button, Text, useToast } from "@chakra-ui/core";
 import { motion } from "framer-motion";
 
+const twitterurl = encodeURIComponent(`it is what it is
+
+👁👄👁.fm
+
+https://xn--mp8hai.fm/`);
+
 export default function SignupForm() {
   const [email, setEmail] = React.useState();
   const [submitted, setSubmit] = React.useState(false);
@@ -47,6 +53,14 @@ export default function SignupForm() {
         <Text fontSize="4xl" fontWeight="bold" color="white">
           yay your email has been submitted!!
         </Text>
+        <Button
+          as="a"
+          target="_blank"
+          href={"https://twitter.com/intent/tweet?text=" + twitterurl}
+          variantColor="blue"
+        >
+          share on twitter to move up to the front of the waitlist
+        </Button>
       </Box>
     </motion.div>
   ) : (
