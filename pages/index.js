@@ -35,6 +35,7 @@ export default function Home() {
           property="og:image"
           content="https://itiswhatitis-ten.vercel.app/socialmedia.png"
         />
+        <link rel="apple-touch-icon" href="/icon.png" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:text:title" content="👁👄👁" />
