@@ -41,6 +41,7 @@ export default function Home() {
           name="twitter:image"
           content="https://itiswhatitis-ten.vercel.app/socialmedia.png"
         />
+        <meta property="og:url" content="https://👁👄👁.fm" />
       </Head>
       <ThemeProvider>
         <CSSReset />
