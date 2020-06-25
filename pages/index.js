@@ -11,7 +11,7 @@ import {
   Box,
   Text,
   Input,
-  Button
+  Button,
 } from "@chakra-ui/core";
 
 import { motion } from "framer-motion";
@@ -26,7 +26,7 @@ const DynamicComponentWithNoSSR = dynamic(
 export default function Home() {
   return (
     <div className="container">
-      <div style={{ display: "hidden " }}>
+      <div style={{ display: "none" }}>
         This website literally doesnt mean anything. We're not a social app.
       </div>
       <Head>
@@ -52,8 +52,8 @@ export default function Home() {
                 "#ff0000",
                 "#00ff00",
                 "#0000ff",
-                "#ffffff"
-              ]
+                "#ffffff",
+              ],
             }}
             transition={{ loop: Infinity, duration: 8 }}
           >
@@ -68,11 +68,11 @@ export default function Home() {
                 <MotionText
                   animate={{
                     scale: [0.1, 0.1, 0.1, 1, 0.1, 0.1, 0.1, 1, 0.1, 1, 0.1],
-                    opacity: [0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0]
+                    opacity: [0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0],
                   }}
                   transition={{
                     loop: Infinity,
-                    duration: 4
+                    duration: 4,
                   }}
                   fontSize="2xl"
                   fontWeight="bold"
@@ -83,11 +83,11 @@ export default function Home() {
                 <MotionText
                   animate={{
                     scale: [0.1, 1, 0.1, 0.1, 0.1, 0.1, 1, 0.1],
-                    opacity: [0, 1, 0, 0, 0, 0, 1, 0]
+                    opacity: [0, 1, 0, 0, 0, 0, 1, 0],
                   }}
                   transition={{
                     loop: Infinity,
-                    duration: 4
+                    duration: 4,
                   }}
                   fontSize="2xl"
                   fontWeight="bold"
@@ -128,7 +128,7 @@ export default function Home() {
                       2.5,
                       1.5,
                       1,
-                      3
+                      3,
                     ],
                     x: [
                       155,
@@ -154,7 +154,7 @@ export default function Home() {
                       135,
                       -237,
                       149,
-                      -257
+                      -257,
                     ],
                     y: [
                       -55,
@@ -184,12 +184,12 @@ export default function Home() {
                       202,
                       20,
                       197,
-                      -100
-                    ]
+                      -100,
+                    ],
                   }}
                   transition={{
                     loop: Infinity,
-                    duration: 8
+                    duration: 8,
                   }}
                   fontSize="4xl"
                   flexGrow="2"
@@ -202,11 +202,11 @@ export default function Home() {
                 <MotionText
                   animate={{
                     scale: [0.1, 0.1, 0.1, 1, 0.1, 1, 0.1],
-                    opacity: [0, 0, 0, 1, 0, 1, 0]
+                    opacity: [0, 0, 0, 1, 0, 1, 0],
                   }}
                   transition={{
                     loop: Infinity,
-                    duration: 4
+                    duration: 4,
                   }}
                   fontSize="2xl"
                   fontWeight="bold"
@@ -217,11 +217,11 @@ export default function Home() {
                 <MotionText
                   animate={{
                     scale: [0.1, 1, 0.1, 0.1, 1, 0.1],
-                    opacity: [0, 1, 0, 0, 1, 0]
+                    opacity: [0, 1, 0, 0, 1, 0],
                   }}
                   transition={{
                     loop: Infinity,
-                    duration: 4
+                    duration: 4,
                   }}
                   fontSize="2xl"
                   fontWeight="bold"
