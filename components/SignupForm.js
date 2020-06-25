@@ -59,7 +59,7 @@ export default function SignupForm() {
           href={"https://twitter.com/intent/tweet?text=" + twitterurl}
           variantColor="blue"
         >
-          share on twitter to move up to the front of the waitlist
+          share on twitter for special treatment 😉
         </Button>
       </Box>
     </motion.div>
