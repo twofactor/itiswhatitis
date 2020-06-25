@@ -179,7 +179,7 @@ export default function Home() {
                     loop: Infinity,
                     duration: 8,
                   }}
-                  fontSize="6xl"
+                  fontSize="4xl"
                   flexGrow="2"
                 >
                   👁👄👁
@@ -218,8 +218,7 @@ export default function Home() {
                 </MotionText>
               </Box>
               <Box width="1px" height="1px" opacity="0">
-                {/* <Autoplay /> */}
-                hi
+                <Autoplay />
               </Box>
             </Flex>
           </motion.div>
