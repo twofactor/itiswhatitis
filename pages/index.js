@@ -33,7 +33,7 @@ export default function Home() {
         <meta property="og:description" content="IT IS WHAT IT IS" />
         <meta property="og:image" content="/socialmedia.png" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <ThemeProvider>
         <CSSReset />
