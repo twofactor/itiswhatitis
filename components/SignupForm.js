@@ -61,6 +61,9 @@ export default function SignupForm() {
         >
           share on twitter for special treatment 😉
         </Button>
+        <Text fontSize="2xl" fontWeight="bold" color="white">
+          ps don't forget to add 👁👄👁 to your twitter name
+        </Text>
       </Box>
     </motion.div>
   ) : (
