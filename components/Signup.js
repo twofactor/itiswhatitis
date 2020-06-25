@@ -17,7 +17,7 @@ export default function Signup() {
   ) : (
     <motion.div whileHover={{ scale: 4 }} whileTap={{ scale: 0.9 }}>
       <Button onClick={RequestAcesss} borderRadius="12px" variantColor="pink">
-        <Text>Request Early Access</Text>
+        <Text>give us ur info</Text>
       </Button>
     </motion.div>
   );

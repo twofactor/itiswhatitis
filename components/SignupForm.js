@@ -68,7 +68,7 @@ export default function SignupForm() {
           ml="8px"
           onClick={submitForm}
         >
-          Sign Up
+          give us ur email
         </Button>
       </motion.div>
     </Flex>
