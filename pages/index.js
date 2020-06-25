@@ -1,209 +1,230 @@
-import Head from 'next/head'
+import Head from "next/head";
+
+import Autoplay from "../components/Autoplay";
+import Signup from "../components/Signup";
+import {
+  ThemeProvider,
+  CSSReset,
+  Heading,
+  Flex,
+  Box,
+  Text,
+  Input,
+  Button,
+} from "@chakra-ui/core";
+
+import { motion } from "framer-motion";
+
+const MotionText = motion.custom(Text);
 
 export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>👁👄👁</title>
+        <link rel="icon" href="/favicon.png" />
+        <meta property="og:title" content="👁👄👁" />
+        <meta property="og:description" content="IT IS WHAT IT IS" />
+        <meta property="og:image" content="/socialmedia.png" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="twitter:card" content="summary" />
       </Head>
-
-      <main>
-        <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
-
-        <div className="grid">
-          <a href="https://nextjs.org/docs" className="card">
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className="card">
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="card"
+      <ThemeProvider>
+        <CSSReset />
+        <main>
+          <motion.div
+            animate={{
+              rotate: [-1, 1, -1],
+              backgroundColor: [
+                "#ffffff",
+                "#ff0000",
+                "#00ff00",
+                "#0000ff",
+                "#ffffff",
+              ],
+            }}
+            transition={{ loop: Infinity, duration: 8 }}
           >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="card"
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
-
-      <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
-        </a>
-      </footer>
-
-      <style jsx>{`
-        .container {
-          min-height: 100vh;
-          padding: 0 0.5rem;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
-
-        main {
-          padding: 5rem 0;
-          flex: 1;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
-
-        footer {
-          width: 100%;
-          height: 100px;
-          border-top: 1px solid #eaeaea;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-
-        footer img {
-          margin-left: 0.5rem;
-        }
-
-        footer a {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-
-        a {
-          color: inherit;
-          text-decoration: none;
-        }
-
-        .title a {
-          color: #0070f3;
-          text-decoration: none;
-        }
-
-        .title a:hover,
-        .title a:focus,
-        .title a:active {
-          text-decoration: underline;
-        }
-
-        .title {
-          margin: 0;
-          line-height: 1.15;
-          font-size: 4rem;
-        }
-
-        .title,
-        .description {
-          text-align: center;
-        }
-
-        .description {
-          line-height: 1.5;
-          font-size: 1.5rem;
-        }
-
-        code {
-          background: #fafafa;
-          border-radius: 5px;
-          padding: 0.75rem;
-          font-size: 1.1rem;
-          font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-            DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
-        }
-
-        .grid {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          flex-wrap: wrap;
-
-          max-width: 800px;
-          margin-top: 3rem;
-        }
-
-        .card {
-          margin: 1rem;
-          flex-basis: 45%;
-          padding: 1.5rem;
-          text-align: left;
-          color: inherit;
-          text-decoration: none;
-          border: 1px solid #eaeaea;
-          border-radius: 10px;
-          transition: color 0.15s ease, border-color 0.15s ease;
-        }
-
-        .card:hover,
-        .card:focus,
-        .card:active {
-          color: #0070f3;
-          border-color: #0070f3;
-        }
-
-        .card h3 {
-          margin: 0 0 1rem 0;
-          font-size: 1.5rem;
-        }
-
-        .card p {
-          margin: 0;
-          font-size: 1.25rem;
-          line-height: 1.5;
-        }
-
-        .logo {
-          height: 1em;
-        }
-
-        @media (max-width: 600px) {
-          .grid {
-            width: 100%;
-            flex-direction: column;
-          }
-        }
-      `}</style>
-
-      <style jsx global>{`
-        html,
-        body {
-          padding: 0;
-          margin: 0;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-            sans-serif;
-        }
-
-        * {
-          box-sizing: border-box;
-        }
-      `}</style>
+            <Flex
+              width="100%"
+              height="100vh"
+              align="center"
+              justify="center"
+              flexDirection="row"
+            >
+              <Box>
+                <MotionText
+                  animate={{
+                    scale: [0.1, 0.1, 0.1, 1, 0.1, 0.1, 0.1, 1, 0.1, 1, 0.1],
+                    opacity: [0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0],
+                  }}
+                  transition={{
+                    loop: Infinity,
+                    duration: 4,
+                  }}
+                  fontSize="2xl"
+                  fontWeight="bold"
+                >
+                  It is what it is
+                </MotionText>
+                <Box height="60vh"></Box>
+                <MotionText
+                  animate={{
+                    scale: [0.1, 1, 0.1, 0.1, 0.1, 0.1, 1, 0.1],
+                    opacity: [0, 1, 0, 0, 0, 0, 1, 0],
+                  }}
+                  transition={{
+                    loop: Infinity,
+                    duration: 4,
+                  }}
+                  fontSize="2xl"
+                  fontWeight="bold"
+                >
+                  It is what it is
+                </MotionText>
+              </Box>
+              <Flex
+                flexGrow="2"
+                align="center"
+                justify="center"
+                flexDirection="column"
+              >
+                <MotionText
+                  animate={{
+                    scale: [
+                      2,
+                      4,
+                      1,
+                      0.5,
+                      2,
+                      4,
+                      0.8,
+                      2,
+                      1,
+                      4.3,
+                      2,
+                      4,
+                      2,
+                      3,
+                      1,
+                      5,
+                      3,
+                      2,
+                      3,
+                      4,
+                      3.5,
+                      2.5,
+                      1.5,
+                      1,
+                      3,
+                    ],
+                    x: [
+                      155,
+                      83,
+                      178,
+                      141,
+                      -104,
+                      -139,
+                      -273,
+                      -101,
+                      -84,
+                      -192,
+                      238,
+                      179,
+                      -29,
+                      177,
+                      -19,
+                      140,
+                      -292,
+                      124,
+                      144,
+                      -247,
+                      135,
+                      -237,
+                      149,
+                      -257,
+                    ],
+                    y: [
+                      -55,
+                      60,
+                      -291,
+                      -214,
+                      257,
+                      -23,
+                      -189,
+                      49,
+                      -76,
+                      2,
+                      -34,
+                      -142,
+                      -287,
+                      219,
+                      -250,
+                      47,
+                      212,
+                      119,
+                      -188,
+                      41,
+                      -248,
+                      -128,
+                      -195,
+                      30,
+                      202,
+                      20,
+                      197,
+                      -100,
+                    ],
+                  }}
+                  transition={{
+                    loop: Infinity,
+                    duration: 8,
+                  }}
+                  fontSize="6xl"
+                  flexGrow="2"
+                >
+                  👁👄👁
+                </MotionText>
+                <Signup />
+              </Flex>
+              <Box>
+                <MotionText
+                  animate={{
+                    scale: [0.1, 0.1, 0.1, 1, 0.1, 1, 0.1],
+                    opacity: [0, 0, 0, 1, 0, 1, 0],
+                  }}
+                  transition={{
+                    loop: Infinity,
+                    duration: 4,
+                  }}
+                  fontSize="2xl"
+                  fontWeight="bold"
+                >
+                  It is what it is
+                </MotionText>
+                <Box height="60vh"></Box>
+                <MotionText
+                  animate={{
+                    scale: [0.1, 1, 0.1, 0.1, 1, 0.1],
+                    opacity: [0, 1, 0, 0, 1, 0],
+                  }}
+                  transition={{
+                    loop: Infinity,
+                    duration: 4,
+                  }}
+                  fontSize="2xl"
+                  fontWeight="bold"
+                >
+                  It is what it is
+                </MotionText>
+              </Box>
+              <Box width="1px" height="1px" opacity="0">
+                {/* <Autoplay /> */}
+                hi
+              </Box>
+            </Flex>
+          </motion.div>
+        </main>
+      </ThemeProvider>
     </div>
-  )
+  );
 }
