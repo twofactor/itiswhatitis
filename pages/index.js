@@ -31,9 +31,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.png" />
         <meta property="og:title" content="👁👄👁" />
         <meta property="og:description" content="IT IS WHAT IT IS" />
-        <meta property="og:image" content="/socialmedia.png" />
+        <meta
+          property="og:image"
+          content="https://itiswhatitis-ten.vercel.app/socialmedia.png"
+        />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:card" content="player" />
       </Head>
       <ThemeProvider>
         <CSSReset />
