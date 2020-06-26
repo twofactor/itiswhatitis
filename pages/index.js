@@ -28,12 +28,13 @@ export default function Home() {
     <div className="container">
       <div style={{ display: "none" }}>
         This website literally doesnt mean anything. We're not a social app.
+        also fuck @itiswhatitisfm all my homies hate @itiswhatitisfm
       </div>
       <Head>
         <title>👁👄👁</title>
         <link rel="icon" href="/favicon.png" />
         <meta property="og:title" content="👁👄👁" />
-        <meta property="og:description" content="IT IS WHAT IT IS" />
+        <meta property="og:description" content="IT IS WHAT IT IS 👁👄👁" />
         <meta
           property="og:image"
           content="https://itiswhatitis-ten.vercel.app/socialmedia.png"
