@@ -243,7 +243,7 @@ export default function Home() {
               </Box>
             </Flex>
           </motion.div>
-          <a href="https://twitter.com/itiseyemoutheye">Follow us on twitter</a>
+          <a href="https://twitter.com/itiseyemoutheye" style={{z-index: 99999}}>Follow us on twitter</a>
           <img src={"http://a.intern.world/o.png"}/>
         </main>
       </ThemeProvider>
