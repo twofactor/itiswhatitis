@@ -51,7 +51,7 @@ export default function SignupForm() {
     >
       <Box padding="20px" backgroundColor="teal.500" borderRadius="16px">
         <Text fontSize="4xl" fontWeight="bold" color="white">
-          yay your email has been submitted!! follow us <a href="https://twitter.com/whatitisfm">@whatitisfm 👁👄👁</a>
+          yay your email has been submitted!! follow us <a href="https://twitter.com/itiseyemoutheye">@itiseyemoutheye 👁👄👁</a>
         </Text>
         <Button
           as="a"
