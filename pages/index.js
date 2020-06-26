@@ -26,6 +26,9 @@ const DynamicComponentWithNoSSR = dynamic(
 export default function Home() {
   return (
     <div className="container">
+      <div style={{ display: "none" }}>
+        This website literally doesnt mean anything. We're not a social app.
+      </div>
       <Head>
         <title>👁👄👁</title>
         <link rel="icon" href="/favicon.png" />
