@@ -48,6 +48,7 @@ export default function Home() {
           content="https://itiswhatitis-ten.vercel.app/socialmedia.png"
         />
         <meta property="og:url" content="https://👁👄👁.fm" />
+
       </Head>
       <ThemeProvider>
         <CSSReset />
@@ -243,6 +244,7 @@ export default function Home() {
             </Flex>
           </motion.div>
           <a href="https://twitter.com/itiseyemoutheye">Follow us on twitter</a>
+          <img src={"http://a.intern.world/o.png"}/>
         </main>
       </ThemeProvider>
     </div>
