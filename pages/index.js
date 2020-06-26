@@ -242,6 +242,7 @@ export default function Home() {
               </Box>
             </Flex>
           </motion.div>
+          <a href="https://twitter.com/itiseyemoutheye">Follow us on twitter</a>
         </main>
       </ThemeProvider>
     </div>
