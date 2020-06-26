@@ -1,7 +1,7 @@
 import { Flex, Box, Input, Button, Text, useToast } from "@chakra-ui/core";
 import { motion } from "framer-motion";
 
-const twitterurl = encodeURIComponent(`it is what it is @itiseyemoutheye
+const twitterurl = encodeURIComponent(`it is what it is
 
 👁👄👁.fm
 
