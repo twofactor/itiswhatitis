@@ -258,8 +258,6 @@ export default function Home() {
       <style global jsx>{`
         body {
           font-family: "Inter", Sans-serif;
-          background: #111111;
-          color: white;
         }
 
         p {
