@@ -13,6 +13,8 @@ import {
   Input,
   Button,
 } from "@chakra-ui/core";
+// import Widget from '../components/Widget'
+
 
 import { motion } from "framer-motion";
 
@@ -23,230 +25,81 @@ const DynamicComponentWithNoSSR = dynamic(
   { ssr: false }
 );
 
+
 export default function Home() {
   return (
-    <div className="container">
-      <div style={{ display: "none" }}>
-        This website literally doesnt mean anything. We're not a social app.
-        also fuck @itiswhatitisfm all my homies hate @itiswhatitisfm
-      </div>
-      <Head>
-        <title>👁👄👁</title>
-        <link rel="icon" href="/favicon.png" />
-        <meta property="og:title" content="👁👄👁" />
-        <meta property="og:description" content="IT IS WHAT IT IS 👁👄👁" />
-        <meta
-          property="og:image"
-          content="https://itiswhatitis-ten.vercel.app/socialmedia.png"
+    <div>
+      <head>
+        {" "}
+        <link
+          href="https://fonts.googleapis.com/css?family=Inter"
+          rel="stylesheet"
+          type="text/css"
         />
-        <link rel="apple-touch-icon" href="/icon.png" />
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:text:title" content="👁👄👁" />
-        <meta
-          name="twitter:image"
-          content="https://itiswhatitis-ten.vercel.app/socialmedia.png"
-        />
-        <meta property="og:url" content="https://👁👄👁.fm" />
+      </head>
+      <div className="holder">
+        <span>
+          <p className="emoji">👁👄👁</p>
+          <p className="tt">It is what it is. We're live.</p>
+          <p>Donate and discover.</p>
+          <p>‎‎‏‏‎ ‎</p>
+          <p>Donate to any of</p>
+          <p><a href="https://thelovelandfoundation.org/loveland-therapy-fund/">a. Loveland Foundation</a></p>
+          <p><a href="https://www.innocenceproject.org/donate/">b. The Innocence Project</a></p>
+          <p><a href="https://www.theokraproject.com/">c. The Okra Project</a></p>
+          <p>‎‎‏‏‎ ‎</p>
+          <p>and <a href="https://google.com" className="submit"> submit your receipt</a> to find out. </p>
 
-      </Head>
-      <ThemeProvider>
-        <CSSReset />
-        <main>
-          <motion.div
-            animate={{
-              rotate: [-1, 1, -1],
-              backgroundColor: [
-                "#ffffff",
-                "#ff0000",
-                "#00ff00",
-                "#0000ff",
-                "#ffffff",
-              ],
-            }}
-            transition={{ loop: Infinity, duration: 8 }}
-          >
-            <Flex
-              width="100%"
-              height="100vh"
-              align="center"
-              justify="center"
-              flexDirection="row"
-            >
-              <Box>
-                <MotionText
-                  animate={{
-                    scale: [0.1, 0.1, 0.1, 1, 0.1, 0.1, 0.1, 1, 0.1, 1, 0.1],
-                    opacity: [0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0],
-                  }}
-                  transition={{
-                    loop: Infinity,
-                    duration: 4,
-                  }}
-                  fontSize="2xl"
-                  fontWeight="bold"
-                >
-                  It is what it is
-                </MotionText>
-                <Box height="60vh"></Box>
-                <MotionText
-                  animate={{
-                    scale: [0.1, 1, 0.1, 0.1, 0.1, 0.1, 1, 0.1],
-                    opacity: [0, 1, 0, 0, 0, 0, 1, 0],
-                  }}
-                  transition={{
-                    loop: Infinity,
-                    duration: 4,
-                  }}
-                  fontSize="2xl"
-                  fontWeight="bold"
-                >
-                  It is what it is
-                </MotionText>
-              </Box>
-              <Flex
-                flexGrow="2"
-                align="center"
-                justify="center"
-                flexDirection="column"
-              >
-                <MotionText
-                  animate={{
-                    scale: [
-                      2,
-                      4,
-                      1,
-                      0.5,
-                      2,
-                      4,
-                      0.8,
-                      2,
-                      1,
-                      4.3,
-                      2,
-                      4,
-                      2,
-                      3,
-                      1,
-                      5,
-                      3,
-                      2,
-                      3,
-                      4,
-                      3.5,
-                      2.5,
-                      1.5,
-                      1,
-                      3,
-                    ],
-                    x: [
-                      155,
-                      83,
-                      178,
-                      141,
-                      -104,
-                      -139,
-                      -273,
-                      -101,
-                      -84,
-                      -192,
-                      238,
-                      179,
-                      -29,
-                      177,
-                      -19,
-                      140,
-                      -292,
-                      124,
-                      144,
-                      -247,
-                      135,
-                      -237,
-                      149,
-                      -257,
-                    ],
-                    y: [
-                      -55,
-                      60,
-                      -291,
-                      -214,
-                      257,
-                      -23,
-                      -189,
-                      49,
-                      -76,
-                      2,
-                      -34,
-                      -142,
-                      -287,
-                      219,
-                      -250,
-                      47,
-                      212,
-                      119,
-                      -188,
-                      41,
-                      -248,
-                      -128,
-                      -195,
-                      30,
-                      202,
-                      20,
-                      197,
-                      -100,
-                    ],
-                  }}
-                  transition={{
-                    loop: Infinity,
-                    duration: 8,
-                  }}
-                  fontSize="4xl"
-                  flexGrow="2"
-                >
-                  👁👄👁
-                </MotionText>
-                <Signup />
-              </Flex>
-              <Box>
-                <MotionText
-                  animate={{
-                    scale: [0.1, 0.1, 0.1, 1, 0.1, 1, 0.1],
-                    opacity: [0, 0, 0, 1, 0, 1, 0],
-                  }}
-                  transition={{
-                    loop: Infinity,
-                    duration: 4,
-                  }}
-                  fontSize="2xl"
-                  fontWeight="bold"
-                >
-                  It is what it is
-                </MotionText>
-                <Box height="60vh"></Box>
-                <MotionText
-                  animate={{
-                    scale: [0.1, 1, 0.1, 0.1, 1, 0.1],
-                    opacity: [0, 1, 0, 0, 1, 0],
-                  }}
-                  transition={{
-                    loop: Infinity,
-                    duration: 4,
-                  }}
-                  fontSize="2xl"
-                  fontWeight="bold"
-                >
-                  It is what it is
-                </MotionText>
-              </Box>
-              <Box width="1px" height="1px" opacity="0">
-                <DynamicComponentWithNoSSR />
-              </Box>
-            </Flex>
-          </motion.div>
-          <a href="https://twitter.com/itiseyemoutheye">Follow us on twitter</a>
-          <img src={"http://a.intern.world/o.png"}/>
-        </main>
-      </ThemeProvider>
+        </span>
+      </div>
+      <style jsx>{`
+        span {
+          color: white;
+          font-size: 26px;
+          text-align: center;
+          // width: 50%;
+          // margin: 0 auto;
+          position: relative;
+          top: 50%;
+          translate: transformY(-50%)
+        }
+        a {
+          color: #dbd9d8;
+          text-decoration: none;
+        }
+        a:hover {
+          color: white;
+        }
+        p.emoji {
+          font-size: 40px;
+          line-height: 1.5;
+        }
+        p.tt {
+          color: white;
+          font-size: 26px;
+          line-height: 1.5;
+        }
+        p {
+          color: gray;
+          font-size: 18px; 
+          line-height: 0.6;
+        }
+        div.holder {
+          height: 100%;
+        }
+        @media (max-width: 600px) {
+          div {
+            background: blue;
+          }
+        }
+      `}</style>
+      <style global jsx>{`
+        body {
+          font-family: "Inter";
+          background: black;
+          
+        }
+      `}</style>
     </div>
   );
 }
