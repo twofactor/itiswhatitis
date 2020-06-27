@@ -47,7 +47,7 @@ export default function Home() {
         <div className="text">
         <img alt="The emojis eye mouth eye." src={"/logo.png"}/>
           <p className="tt">It is what it is. We're live.</p>
-          <p>Donate and discover.</p>
+          <p><a href="/statement" style={{color: "#b30000", textDecoration: "underline"}}>Read our statement.</a></p>
           <p>‎‎‏‏‎ ‎</p>
           <p>Donate to any of</p>
           <p>
