@@ -70,7 +70,7 @@ export default function Home() {
               {" "}
               submit your receipt
             </a>{" "}
-            to find out.{" "}
+            to see what it is.{" "}
           </p>
         </div>
       </div>
