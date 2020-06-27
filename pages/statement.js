@@ -48,7 +48,7 @@ export default function Home() {
             <p>You’re probably wondering what this is. Well, it started off as just what it is.</p>
             <p>A group of us changed our Twitter names to include "👁👄👁" because we thought it was a funny trend from
               TikTok. People started noticing the change on their timelines, noting the creepiness of the emojis in
-              particular. For a brief period of time, everyone who added the emojis to their name were added to a giant
+              particular. For a brief period of time, everyone who added the emojis to their name was added to a giant
               Twitter group conversation. From there, things unfolded.</p>
             <p>What started out as a meme in our small group chat grew bigger than we ever imagined. So we thought about
               how to make use of the hype cycle we’d stumbled upon. But honestly, we didn’t have to think too hard: in
