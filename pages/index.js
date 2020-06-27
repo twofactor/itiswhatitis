@@ -45,7 +45,7 @@ export default function Home() {
       </head>
       <div className="holder">
         <div className="text">
-          <p className="emoji">👁👄👁</p>
+          <img src={"/logo.png"}/>
           <p className="tt">It is what it is. We're live.</p>
           <p>Donate and discover.</p>
           <p>‎‎‏‏‎ ‎</p>
