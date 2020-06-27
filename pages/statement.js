@@ -125,7 +125,7 @@ export default function Home() {
               </li>
               <li><a href="https://www.linkedin.com/in/sshreya/">Shreya</a> is looking for product management roles.
               </li>
-              <li><a href="www.mihirpatel.org">Mihir</a> is looking for software engineering roles.
+              <li><a href="https://www.mihirpatel.org">Mihir</a> is looking for software engineering roles.
               </li>
               <li><a href="https://www.linkedin.com/in/purnimamehta">Purnima</a> is looking for design roles.
               </li>
