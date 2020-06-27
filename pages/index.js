@@ -1,8 +1,6 @@
 import Head from "next/head";
 import dynamic from "next/dynamic";
 
-import Autoplay from "../components/Autoplay";
-import Signup from "../components/Signup";
 import {
   ThemeProvider,
   CSSReset,
@@ -13,17 +11,11 @@ import {
   Input,
   Button,
 } from "@chakra-ui/core";
-// import Widget from '../components/Widget'
 
 
 import { motion } from "framer-motion";
 
 const MotionText = motion.custom(Text);
-
-const DynamicComponentWithNoSSR = dynamic(
-  () => import("../components/Autoplay"),
-  { ssr: false }
-);
 
 
 export default function Home() {
@@ -87,17 +79,11 @@ export default function Home() {
         div.holder {
           height: 100%;
         }
-        @media (max-width: 600px) {
-          div {
-            background: blue;
-          }
-        }
       `}</style>
       <style global jsx>{`
         body {
           font-family: "Inter";
           background: black;
-          
         }
       `}</style>
     </div>
