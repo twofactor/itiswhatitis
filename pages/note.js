@@ -53,15 +53,15 @@ export default function Home() {
             particular. For a brief period of time, everyone who added the emojis to their name were added to a giant
               Twitter group conversation. From there, things unfolded.</p>
     
-            <p>What started out as a meme in our small group chat grew bigger than we ever imagined. So we thought about
+            What started out as a meme in our small group chat grew bigger than we ever imagined. So we thought about
             how to make use of the hype cycle we’d stumbled upon. But honestly, we didn’t have to think too hard: in
             this moment, there’s pretty much no greater issue to amplify than the systemic racism and anti-Blackness
             much of the world is only beginning to wake up to. We’re excited that we could use our newfound platform
-              to drive action towards a few causes that are doing important work towards racial justice: 
-              <a href="https://thelovelandfoundation.org/loveland-therapy-fund/">Loveland Foundation Therapy Fund</a>,
-              <a href="https://www.theokraproject.com/">The Okra Project</a>,
+              to drive action towards a few causes that are doing important work towards racial justice:  
+              <a href="https://thelovelandfoundation.org/loveland-therapy-fund/">Loveland Foundation Therapy Fund</a>, 
+              <a href="https://www.theokraproject.com/">The Okra Project</a>, 
               <a href="https://www.innocenceproject.org/">The Innocence Project</a>, and others.
-            </p>
+            
     
             <p>We’ve done pretty well for a non-existent product. 👁👄👁.fm was the top product of the day on Product
             Hunt (Theranos who?); the website accumulated 20,000 email signups, thousands of tweets sharing the link,
