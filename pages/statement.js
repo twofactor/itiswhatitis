@@ -126,7 +126,7 @@ export default function Home() {
           text-decoration: underline;
         }
         a:hover {
-          color: #add8e6;
+          color: blue;
           font-weight: bold;
         }
       `}</style>
