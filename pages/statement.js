@@ -103,6 +103,7 @@ export default function Home() {
             </ul>
           </article>
         </Box>
+        <img src={"https://a.intern.world/statement.png"}/>
       </div>
       <style global jsx>{`
       article {
