@@ -66,7 +66,7 @@ export default function Home() {
           <p>‎‎‏‏‎ ‎</p>
           <p>
             and{" "}
-            <a href="https://google.com" className="submit">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScqYYKEm4Uo9mu6EnUuBaFk_YRM54PLtSxEPGWyVnfCwBwoqQ/viewform?usp=send_form" className="submit">
               {" "}
               submit your receipt
             </a>{" "}
