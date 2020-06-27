@@ -64,6 +64,10 @@ export default function Home() {
             <a href="https://www.theokraproject.com/">c. The Okra Project</a>
           </p>
           <p>‎‎‏‏‎ ‎</p>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScqYYKEm4Uo9mu6EnUuBaFk_YRM54PLtSxEPGWyVnfCwBwoqQ/viewform?usp=send_form" className="submit">
+            {" "}
+            submit your receipt
+          </a>
         </div>
       </div>
       <style jsx>{`
