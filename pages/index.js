@@ -141,7 +141,7 @@ export default function Home() {
               <p id="0399e83b-6c21-41d9-948d-2ffd28d66387" class="">
                 In a strange way, this sort of became an anti-statement against
                 what we’d all seen on tech Twitter. We’re a{" "}
-                <a href="https://i.imgur.com/ld8FrUD.png">diverse</a>, ragtag
+                <a href="/demographics.png">diverse</a>, ragtag
                 group of young technologists tired of the status quo tech
                 industry, and thought that we could make the industry think a
                 bit more about its actions. Despite calls-to-action like that “
