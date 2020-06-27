@@ -47,7 +47,7 @@ export default function Home() {
         <div className="text">
         <img alt="The emojis eye mouth eye." src={"/logo.png"}/>
           <p className="tt">It is what it is. We're live.</p>
-          <p><a href="/statement" style={{color: "#b30000", textDecoration: "underline"}}>Read our statement.</a></p>
+          <p><a href="/statement" className="subtitle">Read our statement.</a></p>
           <p>‎‎‏‏‎ ‎</p>
           <p>Donate to any of</p>
           <p>
@@ -77,6 +77,13 @@ export default function Home() {
           font-size: 26px;
           text-align: center;
           position: relative;
+        }
+        .subtitle {
+          color: rgb(255, 154, 154);
+          textDecoration: underline;
+        }
+        .subtitle:hover {
+          color: #b30000;
         }
         a {
           color: #dbd9d8;
