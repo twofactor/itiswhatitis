@@ -42,7 +42,8 @@ export default function Home() {
       <div>
         <Box maxWidth="700px" margin="auto">
           <article className="markdown-body" id="body">
-            <p><Heading size="2xl">👁👄👁 WHAT IT REALLY IS</Heading></p>
+            <p><Heading size="2xl">👁👄👁</Heading></p>
+            <p><Heading size="2xl">WHAT IT REALLY IS</Heading></p>
             <p>JUNE 26TH, 2020</p>
             <p>You’re probably wondering what this is. Well, it started off as just what it is.</p>
             <p>A group of us changed our Twitter names to include "👁👄👁" because we thought it was a funny trend from
@@ -107,6 +108,8 @@ export default function Home() {
       article {
         padding-top: 4em;
         padding-bottom: 4em;
+        padding-left: 2em;
+        padding-right: 2em;
       }
         body {
           font-family: "Inter", Sans-serif;
