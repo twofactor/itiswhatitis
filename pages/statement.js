@@ -112,13 +112,15 @@ export default function Home() {
             <ul>
               <li><a href="http://dtbui.com/">David</a> is looking for software engineering and design roles.</li>
               <li><a href="https://yasmeenroumie.com/">Yasmeen</a> is looking for software engineering roles.</li>
-              <li><a href="http://gefenskolnick.com/">Gefen</a> is looking for product management roles.</li>
+              <li><a href="http://gefenskolnick.com/">Gefen</a> is looking for product management and venture capital roles.</li>
               <li><a href="https://www.linkedin.com/in/joelmontanoucf/">Joel</a> is looking for product management and
                 business development roles.
               </li>
               <li><a href="https://www.enandini.com/">Eshita</a> is looking for data and product management roles.</li>
               <li><a href="https://www.linkedin.com/in/elenalape">Elena</a> is looking for business development,
                 partnerships, growth roles.
+              </li>
+              <li><a href="https://www.linkedin.com/in/rhnkmr/">Rohan</a> is looking for creator partnership and social strategy roles at companies building for creators.
               </li>
             </ul>
             <div style={{justifyContent: "center", display: "flex", alignItems: "center"}}>
