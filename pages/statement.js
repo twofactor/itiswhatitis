@@ -122,6 +122,8 @@ export default function Home() {
               </li>
               <li><a href="https://www.linkedin.com/in/rhnkmr/">Rohan</a> is looking for creator partnership and social strategy roles at companies building for creators.
               </li>
+              <li><a href="https://www.linkedin.com/in/sshreya/">Shreya Sudarshana</a> is looking for product management roles at companies building for creators.
+              </li>
             </ul>
             <div style={{justifyContent: "center", display: "flex", alignItems: "center"}}>
             <a href="https://xn--mp8hai.fm/"><Button style={{color: "black", marginTop: "40px"}} size="lg" href="https://xn--mp8hai.fm/">Donate now</Button></a>
