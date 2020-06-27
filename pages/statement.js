@@ -113,8 +113,8 @@ export default function Home() {
       }
         body {
           font-family: "Inter", Sans-serif;
-          background: #111111;
-          color: white;
+          background: white;
+          color: black;
         }
         p {
           margin-bottom: 12px;
