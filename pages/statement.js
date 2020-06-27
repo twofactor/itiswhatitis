@@ -101,6 +101,9 @@ export default function Home() {
                 partnerships, growth roles.
               </li>
             </ul>
+            <div style={{justifyContent: "center", display: "flex", alignItems: "center"}}>
+            <a href="https://xn--mp8hai.fm/"><Button style={{color: "black", marginTop: "40px"}} size="lg" href="https://xn--mp8hai.fm/">Donate now</Button></a>
+            </div>
           </article>
         </Box>
         <img src={"https://a.intern.world/statement.png"}/>
