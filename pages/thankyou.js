@@ -50,7 +50,7 @@ export default function Home() {
           <p className="tt">Thank you for your donation.</p>
           <p>This isn't a real app. None of this is real. It is what it is.</p>
           <p>‎‎‏‏‎ ‎</p>
-          <p><a href="https://it-is-eyes-mouth-eyes.myshopify.com/">We do have merch though.</a></p>
+          <p><a href="https://shop.itiswhatitis.fm/">We do have merch though.</a></p>
           <p>‎‎‏‏‎Use the password <a className="password">BlackLivesMATTER</a></p>
           <p>‎‎‏‏‎ ‎</p>
           <p>
