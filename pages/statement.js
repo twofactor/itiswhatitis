@@ -48,7 +48,7 @@ export default function Home() {
             <p>You’re probably wondering what this is. Well, it started off as just what it is.</p>
             <p>A group of us changed our Twitter names to include "👁👄👁" because we thought it was a funny trend from
               TikTok. People started noticing the change on their timelines, noting the creepiness of the emojis in
-              particular. For a brief period of time, everyone who added the emojis to their name were added to a giant
+              particular. For a brief period of time, everyone who added the emojis to their name was added to a giant
               Twitter group conversation. From there, things unfolded.</p>
             <p>What started out as a meme in our small group chat grew bigger than we ever imagined. So we thought about
               how to make use of the hype cycle we’d stumbled upon. But honestly, we didn’t have to think too hard: in
@@ -75,7 +75,7 @@ export default function Home() {
               accounts of our teammates were inundated with invite requests. Most importantly, we raised over $60,000 in
               donations from people who hoped to get special treatment within our fabled waitlist.</p>
             <p>In a strange way, this sort of became an anti-statement against what we’d all seen on tech Twitter. We’re
-              a <a href="https://i.imgur.com/ld8FrUD.png">diverse</a>, ragtag group of young technologists tired of the
+              a <a href="https://github.com/twofactor/itiswhatitis/blob/twofactor/statement/public/demographics.png">diverse</a>, ragtag group of young technologists tired of the
               status quo tech industry, and thought that we could make the industry think a bit more about its actions.
               Despite calls-to-action like that “<a href="https://a16z.com/2020/04/18/its-time-to-build/">It’s Time to
                 Build</a>” essay we’ve all read, most of the industry (from product teams to VC) still stays obsessed
