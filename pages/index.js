@@ -25,10 +25,32 @@ export default function Home() {
           rel="stylesheet"
           type="text/css"
         />
+        <meta property="og:title" content="👁👄👁" />
+        <meta property="og:description" content="IT IS WHAT IT IS 👁👄👁" />
+        <meta
+          property="og:image"
+          content="https://itiswhatitis-ten.vercel.app/socialmedia.png"
+        />
+        <link rel="apple-touch-icon" href="/icon.png" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:text:title" content="👁👄👁" />
+        <meta
+          name="twitter:image"
+          content="https://itiswhatitis-ten.vercel.app/socialmedia.png"
+        />
+        <meta property="og:url" content="https://👁👄👁.fm" />
       </head>
       <CSSReset />
       <div>
-        <Box maxWidth="700px" margin="auto">
+        <Box
+          maxWidth="700px"
+          margin="auto"
+          pt="48px"
+          pb="48px"
+          pl="12px"
+          pr="12px"
+        >
           <article id="93f2d57b-1a66-4357-a094-a53e113f59c2">
             <header></header>
             <div class="page-body">
