@@ -124,11 +124,11 @@ export default function Home() {
         a {
           color: #add8e6;
           font-weight: bold;
+          text-decoration: underline !important;
         }
         a:hover {
           color: #add8e6;
           font-weight: bold;
-          text-decoration: underline;
         }
       `}</style>
     </ThemeProvider>
