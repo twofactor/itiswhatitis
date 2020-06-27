@@ -121,7 +121,7 @@ export default function Home() {
               <li><a href="https://www.linkedin.com/in/elenalape">Elena</a> is looking for business development,
                 partnerships, growth roles.
               </li>
-              <li><a href="https://www.linkedin.com/in/rhnkmr/">Rohan</a> is looking for social stragety, integrated marketing, VC analyst roles.
+              <li><a href="https://www.linkedin.com/in/rhnkmr/">Rohan</a> is looking for social strategy, integrated marketing, VC analyst roles.
               </li>
               <li><a href="https://www.linkedin.com/in/sshreya/">Shreya</a> is looking for product management roles.
               </li>
