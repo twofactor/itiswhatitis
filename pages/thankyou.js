@@ -46,7 +46,7 @@ export default function Home() {
       
       <div className="holder">
         <div className="text">
-        <img src={"/logo.png"}/>
+        <img alt="The emojis eye mouth eye." src={"/logo.png"}/>
           <p className="tt">Thank you for your donation.</p>
           <p>This isn't a real app. None of this is real. It is what it is.</p>
           <p>‎‎‏‏‎ ‎</p>

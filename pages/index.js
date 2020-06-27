@@ -45,7 +45,7 @@ export default function Home() {
       </head>
       <div className="holder">
         <div className="text">
-          <img src={"/logo.png"}/>
+        <img alt="The emojis eye mouth eye." src={"/logo.png"}/>
           <p className="tt">It is what it is. We're live.</p>
           <p>Donate and discover.</p>
           <p>‎‎‏‏‎ ‎</p>
