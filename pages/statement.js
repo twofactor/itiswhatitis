@@ -35,11 +35,9 @@ export default function Home() {
           margin-left: 16px;
           margin-right: 16px;
         }
-
         p {
           margin: 24px 0;
         }
-
       `}</style>
       <div>
         <Box maxWidth="700px" margin="auto">
@@ -224,7 +222,6 @@ export default function Home() {
               <p id="ebea058c-03cf-4826-bcab-c60011e2336b" class=""></p>
               <p id="68606431-39a5-4b17-b4aa-a702fd360b6e" class=""></p>
               <p id="e76075ad-0ca4-4b84-9f2f-ce17bb18e819" class=""></p>
-              <hr id="61f46ae1-a021-48b3-b19b-0987afd81a5d" />
             </div>
           </article>
         </Box>
@@ -235,17 +232,14 @@ export default function Home() {
           background: #111111;
           color: white;
         }
-
         p {
           margin-bottom: 12px;
           line-height: 160%;
         }
-
         a {
           color: #add8e6;
           font-weight: bold;
         }
-
         a:hover {
           color: #add8e6;
           font-weight: bold;
