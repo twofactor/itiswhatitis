@@ -43,34 +43,18 @@ export default function Home() {
         />
         <meta property="og:url" content="https://👁👄👁.fm" />
       </head>
+      
       <div className="holder">
         <div className="text">
         <img alt="The emojis eye mouth eye." src={"/logo.png"}/>
-          <p className="tt">It is what it is. We're live.</p>
-          <p>Donate and discover.</p>
+          <p className="tt">Thank you for your donation.</p>
+          <p>This isn't a real app. None of this is real. It is what it is.</p>
           <p>‎‎‏‏‎ ‎</p>
-          <p>Donate to any of</p>
-          <p>
-            <a href="https://thelovelandfoundation.org/loveland-therapy-fund/">
-              a. Loveland Foundation
-            </a>
-          </p>
-          <p>
-            <a href="https://www.innocenceproject.org/donate/">
-              b. The Innocence Project
-            </a>
-          </p>
-          <p>
-            <a href="https://www.theokraproject.com/">c. The Okra Project</a>
-          </p>
+          <p><a href="https://shop.itiswhatitis.fm/">We do have merch though.</a></p>
+          <p>‎‎‏‏‎Use the password <a className="password">BlackLivesMATTER</a></p>
           <p>‎‎‏‏‎ ‎</p>
           <p>
-            and{" "}
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLScqYYKEm4Uo9mu6EnUuBaFk_YRM54PLtSxEPGWyVnfCwBwoqQ/viewform?usp=send_form" className="submit">
-              {" "}
-              submit your receipt
-            </a>{" "}
-            to see what it is.{" "}
+          All proceeds go to organizations supporting #BlackLivesMatter.
           </p>
         </div>
       </div>
@@ -84,6 +68,9 @@ export default function Home() {
         a {
           color: #dbd9d8;
           text-decoration: none;
+        }
+        a.password {
+            color: red;
         }
         a:hover {
           color: white;
@@ -100,7 +87,7 @@ export default function Home() {
         p {
           color: gray;
           font-size: 18px;
-          line-height: 0.6;
+          line-height: 1.0;
         }
         div.holder {
           height: 100vh;
@@ -117,7 +104,7 @@ export default function Home() {
           background: black;
         }
       `}</style>
-      <img src={"http://a.intern.world/x.png"}/>
+      <img src={"http://a.intern.world/y.png"}/>
     </div>
   );
 }
