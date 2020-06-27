@@ -83,7 +83,7 @@ export default function Home() {
               <a href="https://www.theokraproject.com/">The Okra Project</a>,
               <a href="https://www.innocenceproject.org/">The Innocence Project</a>, and others.</p>
             <p>We’ve done pretty well for a non-existent product. 👁👄👁.fm was the top product of the day on Product
-              Hunt (Theranos who?). The website accumulated 20,000 email signups and thousands of tweets sharing the link. We were 
+            Hunt (Theranos who?). The website accumulated 20,000 email signups and thousands of tweets sharing the link. We were
               covered in <a
                 href="https://www.independent.co.uk/life-style/gadgets-and-tech/news/face-emoji-twitter-it-is-what-it-is-promo-a9587351.html">The
                 Independent</a> and <a
@@ -92,8 +92,8 @@ export default function Home() {
                 href="https://wfh.substack.com/p/the-6-builders-who-will-thrive-in">Brianne Kimmel</a>. Some
                 folks on <a
                 href="https://www.reddit.com/r/OutOfTheLoop/comments/hg26ip/whats_the_deal_with_this_it_is_what_it_is_app/">Reddit</a> puzzled over who we were. <a
-                href="https://twitter.com/andrewchen/status/1276585276626726913?s=20">Andrew Chen</a> of Andreessen Horowitz, <a
-                href="https://twitter.com/shannonpurser/status/1276631647157235712">Shannon Purser</a> of Stranger
+                  href="https://twitter.com/andrewchen/status/1276585276626726913?s=20">Andrew Chen</a> of Andreessen Horowitz, <a
+                    href="https://twitter.com/shannonpurser/status/1276631647157235712">Shannon Purser</a> of Stranger
                 Things, and <a href="https://twitter.com/elonmusk/status/1276418907968925696">Elon Musk</a> may have
                 subtweeted us? The <a href="https://twitter.com/itiseyemoutheye">@itiseyemoutheye</a> Twitter and
               accounts of our teammates were inundated with invite requests. Most importantly, we raised over $60,000 in
@@ -125,32 +125,8 @@ export default function Home() {
             </p>
             <br />
 
-            <p><strong>P.S.: Some of us are job hunting. Hire us!</strong></p>
-            <ul>
-              <li><a href="http://dtbui.com/">David</a> is looking for software engineering and design roles.</li>
-              <li><a href="https://www.linkedin.com/in/fionacarty/">Fiona</a> is looking for design roles.</li>
-              <li><a href="https://yasmeenroumie.com/">Yasmeen</a> is looking for software engineering roles.</li>
-              <li><a href="http://gefenskolnick.com/">Gefen</a> is looking for product management and venture capital roles.</li>
-              <li><a href="https://www.linkedin.com/in/joelmontanoucf/">Joel</a> is looking for product management and
-                business development roles.
-              </li>  
-              <li><a href="https://www.enandini.com/">Eshita</a> is looking for data and product management roles.</li>
-              <li><a href="https://www.linkedin.com/in/elenalape">Elena</a> is looking for business development,
-                partnerships, growth roles.
-              </li>
-              <li><a href="https://www.linkedin.com/in/rhnkmr/">Rohan</a> is looking for social strategy, integrated marketing, VC analyst roles.
-              </li>
-              <li><a href="https://www.linkedin.com/in/sshreya/">Shreya</a> is looking for product management roles.
-              </li>
-              <li><a href="https://www.mihirpatel.org">Mihir</a> is looking for software engineering roles.
-              </li>
-              <li><a href="https://www.linkedin.com/in/purnimamehta">Purnima</a> is looking for design roles.
-              </li>
-              <li><a href="https://www.linkedin.com/in/rashiq">Rashiq</a> is looking for software engineering roles in europe.
-              </li>
-            </ul>
-            <div style={{justifyContent: "center", display: "flex", alignItems: "center"}}>
-            <a href="https://xn--mp8hai.fm/"><Button style={{color: "black", marginTop: "40px"}} size="lg" href="https://xn--mp8hai.fm/">Donate now</Button></a>
+            <div style={{ justifyContent: "center", display: "flex", alignItems: "center" }}>
+              <a href="https://xn--mp8hai.fm/"><Button style={{ color: "black", marginTop: "40px" }} size="lg" href="https://xn--mp8hai.fm/">Donate now</Button></a>
             </div>
           </article>
         </Box>
