@@ -45,6 +45,7 @@ export default function Home() {
             <p><Heading size="2xl">👁👄👁</Heading></p>
             <p><Heading size="2xl">WHAT IT REALLY IS!</Heading></p>
             <p>JUNE 26TH, 2020</p>
+    
             <p>We’ve done pretty well for a non-existent product. 👁👄👁.fm was the top product of the day on Product
             Hunt (Theranos who?); the website accumulated 20,000 email signups, thousands of tweets sharing the link,
               coverage in <a
@@ -61,6 +62,8 @@ export default function Home() {
                 subtweeted us</a>? The <a href="https://twitter.com/itiseyemoutheye">@itiseyemoutheye</a> Twitter and
               accounts of our teammates were inundated with invite requests. Most importantly, we raised over $60,000 in
               donations from people who hoped to get special treatment within our fabled waitlist.</p>
+            
+  
             <p>In a strange way, this sort of became an anti-statement against what we’d all seen on tech Twitter. We’re
               a <a href="/demographics.png">diverse</a>, ragtag group of young technologists tired of the
               status quo tech industry, and thought that we could make the industry think a bit more about its actions.
