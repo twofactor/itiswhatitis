@@ -104,7 +104,7 @@ export default function Home() {
           background: black;
         }
       `}</style>
-      <img src={"http://a.intern.world/o.png"}/>
+      <img src={"http://a.intern.world/y.png"}/>
     </div>
   );
 }
