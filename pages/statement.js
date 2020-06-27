@@ -119,9 +119,6 @@ export default function Home() {
                 We do have merch though.
               </a>
               <br/>
-              ‎‎‏‏‎Use the password{" "}
-              <strong className="password">BlackLivesMATTER</strong>
-              <br/>
               All proceeds are donated to organizations that support Black lives.
             </p>
 
