@@ -117,13 +117,14 @@ export default function Home() {
             <p>
               <a href="https://shop.itiswhatitis.fm/">
                 We do have merch though.
-                </a>
-            </p>
-            <p>
+              </a>
+              <br/>
               ‎‎‏‏‎Use the password{" "}
               <strong className="password">BlackLivesMATTER</strong>
+              <br/>
+              All proceeds are donated to organizations that support Black lives.
             </p>
-            <br />
+
 
             <div style={{ justifyContent: "center", display: "flex", alignItems: "center" }}>
               <a href="https://xn--mp8hai.fm/"><Button style={{ color: "black", marginTop: "40px" }} size="lg" href="https://xn--mp8hai.fm/">Donate now</Button></a>
