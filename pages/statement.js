@@ -51,7 +51,7 @@ export default function Home() {
         <Box maxWidth="700px" margin="auto">
           <article className="markdown-body" id="body">
             <p><Heading size="2xl">👁👄👁</Heading></p>
-            <p><Heading size="2xl">WHAT IT REALLY IS!</Heading></p>
+            <p><Heading size="2xl">WHAT IT REALLY IS</Heading></p>
             <p>JUNE 26TH, 2020</p>
             <p>You’re probably wondering what this is. Well, it started off as just what it is.</p>
             <p>A group of us changed our Twitter names to include "👁👄👁" because we thought it was a funny trend from
@@ -80,7 +80,7 @@ export default function Home() {
                 Things, and <a href="https://twitter.com/elonmusk/status/1276418907968925696">Elon Musk</a> may have
                 subtweeted us? The <a href="https://twitter.com/itiseyemoutheye">@itiseyemoutheye</a> Twitter and
               accounts of our teammates were inundated with invite requests. Most importantly, we raised over $60,000 in
-              donations from people who hoped to get special treatment within our fabled waitlist.</p>
+              donations from people who hoped to get special treatment within our fabled waitlist. An anonymous donor has agreed to match the first $50,000 and we would love to work with anyone else who wants to match. Please DM us! </p>
             In a strange way, this sort of became an anti-statement against what we’d all seen on tech Twitter. We’re
               a <a href="/demographics.png">diverse</a>, ragtag group of young technologists tired of the
               status quo tech industry, and thought that we could make the industry think a bit more about its actions.
