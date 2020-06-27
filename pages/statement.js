@@ -75,7 +75,7 @@ export default function Home() {
               accounts of our teammates were inundated with invite requests. Most importantly, we raised over $60,000 in
               donations from people who hoped to get special treatment within our fabled waitlist.</p>
             <p>In a strange way, this sort of became an anti-statement against what we’d all seen on tech Twitter. We’re
-              a <a href="https://i.imgur.com/ld8FrUD.png">diverse</a>, ragtag group of young technologists tired of the
+              a <a href="/demographics.png">diverse</a>, ragtag group of young technologists tired of the
               status quo tech industry, and thought that we could make the industry think a bit more about its actions.
               Despite calls-to-action like that “<a href="https://a16z.com/2020/04/18/its-time-to-build/">It’s Time to
                 Build</a>” essay we’ve all read, most of the industry (from product teams to VC) still stays obsessed
