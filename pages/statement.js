@@ -97,7 +97,7 @@ export default function Home() {
                 Things, and <a href="https://twitter.com/elonmusk/status/1276418907968925696">Elon Musk</a> may have
                 subtweeted us? The <a href="https://twitter.com/itiseyemoutheye">@itiseyemoutheye</a> Twitter and
               accounts of our teammates were inundated with invite requests. Most importantly, we raised over $60,000 in
-              donations from people who hoped to get special treatment within our fabled waitlist.</p>
+              donations from people who hoped to get special treatment within our fabled waitlist. An anonymous donor has agreed to match the first $50,000 and we would love to work with anyone else who wants to match. Please DM us! </p>
             In a strange way, this sort of became an anti-statement against what we’d all seen on tech Twitter. We’re
               a <a href="/demographics.png">diverse</a>, ragtag group of young technologists tired of the
               status quo tech industry, and thought that we could make the industry think a bit more about its actions.
@@ -128,14 +128,25 @@ export default function Home() {
             <p><strong>P.S.: Some of us are job hunting. Hire us!</strong></p>
             <ul>
               <li><a href="http://dtbui.com/">David</a> is looking for software engineering and design roles.</li>
+              <li><a href="https://www.linkedin.com/in/fionacarty/">Fiona</a> is looking for design roles.</li>
               <li><a href="https://yasmeenroumie.com/">Yasmeen</a> is looking for software engineering roles.</li>
-              <li><a href="http://gefenskolnick.com/">Gefen</a> is looking for product management roles.</li>
+              <li><a href="http://gefenskolnick.com/">Gefen</a> is looking for product management and venture capital roles.</li>
               <li><a href="https://www.linkedin.com/in/joelmontanoucf/">Joel</a> is looking for product management and
                 business development roles.
-              </li>
+              </li>  
               <li><a href="https://www.enandini.com/">Eshita</a> is looking for data and product management roles.</li>
               <li><a href="https://www.linkedin.com/in/elenalape">Elena</a> is looking for business development,
                 partnerships, growth roles.
+              </li>
+              <li><a href="https://www.linkedin.com/in/rhnkmr/">Rohan</a> is looking for social strategy, integrated marketing, VC analyst roles.
+              </li>
+              <li><a href="https://www.linkedin.com/in/sshreya/">Shreya</a> is looking for product management roles.
+              </li>
+              <li><a href="https://www.mihirpatel.org">Mihir</a> is looking for software engineering roles.
+              </li>
+              <li><a href="https://www.linkedin.com/in/purnimamehta">Purnima</a> is looking for design roles.
+              </li>
+              <li><a href="https://www.linkedin.com/in/rashiq">Rashiq</a> is looking for software engineering roles in europe.
               </li>
             </ul>
             <div style={{justifyContent: "center", display: "flex", alignItems: "center"}}>

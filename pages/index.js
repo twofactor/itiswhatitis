@@ -47,7 +47,7 @@ export default function Home() {
         <div className="text">
         <img alt="The emojis eye mouth eye." src={"/logo.png"}/>
           <p className="tt">It is what it is. We're live.</p>
-          <p>Donate and discover.</p>
+          <p><a href="/statement" className="subtitle">Read our statement.</a></p>
           <p>‎‎‏‏‎ ‎</p>
           <p>Donate to any of</p>
           <p>
@@ -64,14 +64,11 @@ export default function Home() {
             <a href="https://www.theokraproject.com/">c. The Okra Project</a>
           </p>
           <p>‎‎‏‏‎ ‎</p>
-          <p>
-            and{" "}
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLScqYYKEm4Uo9mu6EnUuBaFk_YRM54PLtSxEPGWyVnfCwBwoqQ/viewform?usp=send_form" className="submit">
-              {" "}
-              submit your receipt
-            </a>{" "}
-            to see what it is.{" "}
-          </p>
+          <p>‎‎‏‏‎ ‎</p>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScqYYKEm4Uo9mu6EnUuBaFk_YRM54PLtSxEPGWyVnfCwBwoqQ/viewform?usp=send_form" className="submit">
+            {" "}
+            submit your receipt
+          </a>
         </div>
       </div>
       <style jsx>{`
@@ -80,6 +77,13 @@ export default function Home() {
           font-size: 26px;
           text-align: center;
           position: relative;
+        }
+        .subtitle {
+          color: rgb(255, 154, 154);
+          textDecoration: underline;
+        }
+        .subtitle:hover {
+          color: #b30000;
         }
         a {
           color: #dbd9d8;
