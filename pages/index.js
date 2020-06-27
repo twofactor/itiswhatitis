@@ -11,9 +11,10 @@ import {
   Input,
   Button,
 } from "@chakra-ui/core";
-// import Widget from '../components/Widget'
 
 import { motion } from "framer-motion";
+
+const MotionText = motion.custom(Text);
 
 export default function Home() {
   return (
@@ -108,11 +109,6 @@ export default function Home() {
           flex-direction: column;
           justify-content: center;
           align-content: center;
-        }
-        @media (max-width: 600px) {
-          div {
-            background: blue;
-          }
         }
       `}</style>
       <style global jsx>{`
