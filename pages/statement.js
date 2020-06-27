@@ -33,6 +33,23 @@ export default function Home() {
           rel="stylesheet"
           type="text/css"
         />
+        <title>WHAT IT REALLY IS</title>
+        <link rel="icon" href="/favicon.png" />
+        <meta property="og:title" content="👁👄👁" />
+        <meta property="og:description" content="WHAT IT REALLY IS 👁👄👁" />
+        <meta
+          property="og:image"
+          content="https://itiswhatitis-ten.vercel.app/socialmedia.png"
+        />
+        <link rel="apple-touch-icon" href="/icon.png" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:text:title" content="👁👄👁" />
+        <meta
+          name="twitter:image"
+          content="https://itiswhatitis-ten.vercel.app/socialmedia.png"
+        />
+        <meta property="og:url" content="https://👁👄👁.fm" />
       </head>
       <CSSReset />
       <style jsx>{`
@@ -51,7 +68,7 @@ export default function Home() {
         <Box maxWidth="700px" margin="auto">
           <article className="markdown-body" id="body">
             <p><Heading size="2xl">👁👄👁</Heading></p>
-            <p><Heading size="2xl">WHAT IT REALLY IS!</Heading></p>
+            <p><Heading size="2xl">WHAT IT REALLY IS</Heading></p>
             <p>JUNE 26TH, 2020</p>
             <p>You’re probably wondering what this is. Well, it started off as just what it is.</p>
             <p>A group of us changed our Twitter names to include "👁👄👁" because we thought it was a funny trend from
