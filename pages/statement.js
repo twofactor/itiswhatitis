@@ -27,11 +27,25 @@ export default function Home() {
         />
       </head>
       <CSSReset />
+      <style jsx>{`
+        .page-body {
+          line-height: 1.6;
+          padding-top: 48px;
+          padding-bottom: 48px;
+          margin-left: 16px;
+          margin-right: 16px;
+        }
+
+        p {
+          margin: 24px 0;
+        }
+
+      `}</style>
       <div>
         <Box maxWidth="700px" margin="auto">
           <article id="93f2d57b-1a66-4357-a094-a53e113f59c2">
             <header></header>
-            <div class="page-body">
+            <div className="page-body">
               <Heading size="2xl">👁👄👁 WHAT IT REALLY IS</Heading>
               <p id="fb8866d3-4afe-4754-bf56-7116e17eca80">JUNE 26TH, 2020</p>
               <p id="19649874-3000-48b1-abcf-34add0f598d3"></p>
