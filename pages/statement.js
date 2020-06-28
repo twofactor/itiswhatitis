@@ -71,7 +71,7 @@ export default function Home() {
             <p><Heading size="2xl">WHAT IT REALLY IS</Heading></p>
             <p>JUNE 26TH, 2020</p>
             <p>You’re probably wondering what this is. Well, it started off as just what it is.</p>
-            <p>A group of us changed our Twitter names to include "👁👄👁" because we thought it was a funny trend from
+            <p>A group of us changed our Twitter names to include <span className="nw>">👁👄👁"</span> because we thought it was a funny trend from
             TikTok. People started noticing the change on their timelines, noting the creepiness of the emojis in
             particular. For a brief period of time, everyone who added the emojis to their name was added to a giant
               Twitter group conversation. From there, things unfolded.</p>
@@ -82,7 +82,7 @@ export default function Home() {
               to drive action towards a few causes that are doing important work towards racial justice: <a href="https://thelovelandfoundation.org/loveland-therapy-fund/">Loveland Foundation Therapy Fund</a>,
               <a href="https://www.theokraproject.com/">The Okra Project</a>,
               <a href="https://www.innocenceproject.org/">The Innocence Project</a>, and others.</p>
-            <p>We’ve done pretty well for a non-existent product. 👁👄👁.fm was the top product of the day on Product
+            <p>We’ve done pretty well for a non-existent product. <span className="nw">👁👄👁.fm</span> was the top product of the day on Product
             Hunt (Theranos who?). The website accumulated 20,000 email signups and thousands of tweets sharing the link. We were
               covered in <a
                 href="https://www.independent.co.uk/life-style/gadgets-and-tech/news/face-emoji-twitter-it-is-what-it-is-promo-a9587351.html">The
@@ -108,7 +108,7 @@ export default function Home() {
               do better.
             <p>We sincerely thank you for spreading the word and donating to these important causes. In conclusion, it
             is what it is: a meme that leveraged the relentless hype of exclusive apps and redirected it towards a
-            critical social need. Thank you, and remember that unlike 👁👄👁, #BlackLivesMatter and other social
+            critical social need. Thank you, and remember that unlike <span className="nw">👁👄👁</span>, #BlackLivesMatter and other social
               movements aren't trends or hype cycles. Let’s keep giving back as best as we can.</p>
             <p>Signed,</p>
             <p><a href="https://twitter.com/itiseyemoutheye/following">The 👁👄👁 Team</a></p>
@@ -131,6 +131,7 @@ export default function Home() {
         <img src={"https://a.intern.world/statement.png"} />
       </div>
       <style global jsx>{`
+      .nw { white-space: nowrap; }
       article {
         padding-top: 4em;
         padding-bottom: 4em;
