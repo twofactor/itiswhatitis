@@ -96,7 +96,7 @@ export default function Home() {
                     href="https://twitter.com/shannonpurser/status/1276631647157235712">Shannon Purser</a> of Stranger
                 Things, and <a href="https://twitter.com/elonmusk/status/1276418907968925696">Elon Musk</a> may have
                 subtweeted us? The <a href="https://twitter.com/itiseyemoutheye">@itiseyemoutheye</a> Twitter and
-              accounts of our teammates were inundated with invite requests. Most importantly, we raised over $60,000 in
+              accounts of our teammates were inundated with invite requests. Most importantly, we raised over $140,000 in
               donations from people who hoped to get special treatment within our fabled waitlist. An anonymous donor has agreed to match the first $50,000 and we would love to work with anyone else who wants to match. Please DM us! </p>
             In a strange way, this sort of became an anti-statement against what we’d all seen on tech Twitter. We’re
               a <a href="/demographics.png">diverse</a>, ragtag group of young technologists tired of the
