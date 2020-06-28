@@ -97,7 +97,7 @@ export default function Home() {
                 Things, and <a href="https://twitter.com/elonmusk/status/1276418907968925696">Elon Musk</a> may have
                 subtweeted us? The <a href="https://twitter.com/itiseyemoutheye">@itiseyemoutheye</a> Twitter and
               accounts of our teammates were inundated with invite requests. Most importantly, we raised over $65,000 in
-              donations from people who hoped to get special treatment within our fabled waitlist. Two anonymous donor have agreed to match the first $60,000 and $75,000, and we would love to work with anyone else who wants to match. Please DM us! </p>
+              donations from people who hoped to get special treatment within our fabled waitlist. Two anonymous donor have agreed to match the first $60,000 and $75,000, bringing the total to $200,000. We would love to work with anyone else who wants to match. Please DM us! </p>
             In a strange way, this sort of became an anti-statement against what we’d all seen on tech Twitter. We’re
               a <a href="/demographics.png">diverse</a>, ragtag group of young technologists tired of the
               status quo tech industry, and thought that we could make the industry think a bit more about its actions.
