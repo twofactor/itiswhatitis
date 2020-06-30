@@ -114,15 +114,6 @@ export default function Home() {
             <p><a href="https://twitter.com/itiseyemoutheye/following">The 👁👄👁 Team</a></p>
             <br />
 
-            <p>
-              <a href="https://shop.itiswhatitis.fm/">
-                We do have merch though.
-              </a>
-              <br/>
-              All proceeds are donated to organizations that support Black lives.
-            </p>
-
-
             <div style={{ justifyContent: "center", display: "flex", alignItems: "center" }}>
               <a href="https://xn--mp8hai.fm/"><Button style={{ color: "black", marginTop: "40px" }} size="lg" href="https://xn--mp8hai.fm/">Donate now</Button></a>
             </div>
