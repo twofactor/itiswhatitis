@@ -115,7 +115,7 @@ export default function Home() {
             <br />
 
             <p>
-              <a href="https://shop.itiswhatitis.fm/">
+              <a href="https://shop.itiswhatitis.fm/collections/stickers/products/thank-you-%F0%9F%91%81%F0%9F%91%84%F0%9F%91%81">
                 We do have merch though.
               </a>
               <br/>
